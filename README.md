@@ -27,7 +27,7 @@ https://medium.com/tinghaochen/how-to-install-pyspark-locally-94501eefe421
 ```
 
 
-## UnitTestのについて(今回時間のため、省略させていただく)
+## UnitTestの実行について(今回時間のため、省略させていただく)
 ```bash
 pwd 
 # cd {testの置きディレクトリ}
@@ -37,7 +37,7 @@ make test
 python3 -m pytest -vv {test target}
 ```
 
-## Update Libraries
+## ライブラリーの更新について
 ```bash
 pip3 freeze > requirements.txt
 ```
